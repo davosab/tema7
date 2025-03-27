@@ -37,9 +37,21 @@ function draw() {
   resetMatrix();
 
   // mercury
-  ellipseDimPlanetDimDegrees(240, 110, 30, 225, "#95999c");
-  
-
+  ellipseDimPlanetDimDegrees(240, 110, 20, 225, "#95999c");
+  // venus
+  ellipseDimPlanetDimDegrees(300, 124, 24, 20, "#f2cf6f");
+  // earth
+  ellipseDimPlanetDimDegrees(366, 136, 30, 150, "#2e86c9");
+  // mars
+  ellipseDimPlanetDimDegrees(460, 152, 28, 330, "#bf370a");
+  // jupiter
+  ellipseDimPlanetDimDegrees(550, 174, 48, 180, "#e68250");
+  // saturn
+  ellipseDimPlanetDimDegrees(650, 200, 45, 25, "#a1823b");
+  // uranus
+  ellipseDimPlanetDimDegrees(720, 244, 42, 270, "#3b95a1");
+  // pluto
+  ellipseDimPlanetDimDegrees(770, 290, 16, 86, "#314b61");
 }
 
 function ellipseDimPlanetDimDegrees(ew, eh, pDia, deg, pColour) {
